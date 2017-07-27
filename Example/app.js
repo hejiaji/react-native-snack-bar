@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import SnackBar from './components/snackBarComponent';
+import SnackBar from 'react-native-snackbar-component';
 
 const styles = StyleSheet.create({
   container: {
