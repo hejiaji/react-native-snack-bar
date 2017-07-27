@@ -1,0 +1,31 @@
+{
+  "name": "react-native-snackbar-component",
+  "version": "0.0.1",
+  "description": "A snackbar component for Android and iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --fix ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https@github.com:hejiaji/React-Native-SnackBar-Component.git"
+  },
+  "keywords": [
+    "snackbar"
+  ],
+  "author": "Jeremy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "7.0.0"
+  },
+  "peerDependencies": {
+    "react": "15.3.2",
+    "react-native": "^0.35.0"
+  }
+}
