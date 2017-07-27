@@ -106,22 +106,10 @@ class SnackbarComponent extends Component {
       ).start();
     }
   }
-
-  componentWillUpdate(nextProps, nextState) {
-    if ((nextProps.isVisible !== this.props.isVisible) ||
-      (nextState.containerHeight !== this.state.containerHeight)) {
-      if (nextProps.isVisible) {
-        this.props.distanceCallback(nextState.containerHeight);
-      } else {
-        this.props.distanceCallback(0);
-      }
-    }
-  }
 }
 
 
 SnackbarComponent.defaultProps = {
-  distanceCallback: noop,
   onActionClick: noop,
   isVisible: false,
   messageText: '',
@@ -130,7 +118,6 @@ SnackbarComponent.defaultProps = {
 
 SnackbarComponent.propTypes = {
   containerStyle: PropTypes.number,
-  distanceCallback: PropTypes.func,
   onActionClick: PropTypes.func,
   isVisible: PropTypes.bool,
   messageText: PropTypes.string,
