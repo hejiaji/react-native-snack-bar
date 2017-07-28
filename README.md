@@ -12,3 +12,14 @@ eslint which looks make more sense. Also with example code attached in the repo.
 ```bash
 npm install react-native-snack-bar --save
 ```
+## Properties
+
+| Prop | Description | Default |
+|---|---|---|
+|**`containerStyle`**|The style for the component container.|None|
+|**`actionTextStyle`**|The style for the action text.|None|
+|**`messageTextStyle`**|The style for the message text.|None|
+|**`messageText`**|The content to display.| '' |
+|**`actionText`**|The action text to display.| '' |
+|**`isVisible`**|Indicates if the snackbar is visible.|True|
+|**`onActionClick`**|The callback when the action is clicked.|None|
